@@ -18,7 +18,8 @@ const getDate = () => {
 	return '' + date.getFullYear() + add0(date.getMonth() + 1) + add0(date.getDate());
 }
 // 当前日期
-const DATE = getDate();
+//const DATE = getDate();
+const DATE = '20250915';
 // /news 目录
 const NEWS_PATH = path.join(__dirname, 'news');
 // /news/xxxxxxxx.md 文件
